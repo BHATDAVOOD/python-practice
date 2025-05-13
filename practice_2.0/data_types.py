@@ -84,3 +84,12 @@ print(value)
 latestData=bytearray(b'Hello, world!')
 view=memoryview(latestData)
 print(view)
+
+# Python Dictionary : Kind of Hashtable. Consits of Key:Value pairs
+# Dictionary is an object of built-in dict class
+
+print("====================================")
+student={'name':'bhat','age':31,'marks':97.5,'department':'IT'}
+print(student)
+print(student.keys())
+print(student.values())
