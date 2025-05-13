@@ -42,3 +42,45 @@ print('=======================================')
 data=[2025,"UST",22.6,True,6+3j]
 print(data)
 print(type(data))
+
+# Tuple Data Type : Similar to List but is immutable
+
+print('=======================================')
+
+newData=(1,2,2.0,'Global',True)
+print(newData)
+print(type(newData))
+
+# Python Range Data Type
+# Represented by Range Class
+# range(start,stop,step)  -> start : From where to Start, (Optional and Default is 0). Stop : Where to Stop, (Mandatory). Step : How to increment, (Optional and Default : 1)
+# Range is used to iterate over a range of items
+
+print("==================================")
+for i in range(5):
+    print(i)
+
+
+# Python Binary Data Types -> 0 and 1
+# Types : bytes, bytearray, memoryview
+
+# byte data type : Sequence of bytes. Each byte is an integer value from 0 to 255.
+# Commonly used to store binary data like images, files or network packets
+# bytes() function is used to create bytes
+
+print("==================================")
+b1=bytes([67,68,69,70])
+print(b1)
+
+# bytearray data type : Similar to bytes but this is mutable. Data can be modified once created
+# bytearray() function is used to create bytearray
+
+value=bytearray([67,101,108,69])
+print(value)
+
+# memoryview data type : provides view into memory of original data. Access underlying data without copying it, providing efficient memory access.
+# memoryview() construcors, slicing bytes or bytearray, extracting from array objects or open() function are ways to create memoryview
+
+latestData=bytearray(b'Hello, world!')
+view=memoryview(latestData)
+print(view)
