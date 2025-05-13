@@ -14,6 +14,7 @@ print("The type of variable having value ",d," is ",type(d))
 
 # Python String Data Type
 # Enclosed in Single,Double or Triple Quotation marks
+print('=======================================')
 
 firstName='davood'
 middleName="ahmad"
@@ -29,3 +30,15 @@ print(firstName[0]) # Prints first character
 print(firstName[2:4]) # Prints from 2nd Index till 3rd Index 
 print(firstName[2:]) # 2nd Index till end
 print(firstName[:3]) # Starting to 2nd Index
+
+
+# Python Sequence Data Types
+# List, Tuple, Range
+# List -> Data separated by commas and contained within square braces.
+# Python Lists can have data of different types
+# List can have simple number, string, tuple, dictionary,set or object of user defined class
+
+print('=======================================')
+data=[2025,"UST",22.6,True,6+3j]
+print(data)
+print(type(data))
