@@ -39,3 +39,82 @@ print('a<b : {}'.format(a<b))
 print('a>b : {}'.format(a>b))
 print('a<=b : {}'.format(a<=b))
 print('a>=b : {}'.format(a>=b))
+
+#Python Assignment operators
+print('================ASSIGNMENT OPERATORS=====================')
+a=10 
+a+=10 # a=a+10 : 20
+print(a)
+a-=5 # a=a-5 : 15
+print(a)
+a*=5 # a=a*5 : 75
+print(a)
+a/=5 # a=a/5 : 15.0
+print(a)
+a%=4 # a=a%5 : 3
+print(int(a))
+a**=4 # a=a**4 : 81
+print(int(a))
+a//=4 # a=a//3 : 20.0
+print(int(a))
+
+
+#Python BITWISE operators
+# & : AND, | : OR,  ^ : XOR, ~ : COMPLEMENT, << : ZERO FILL LEFT SHIFT, >> : SIGNED RIGHT SHIFT 
+print('================BITWISE OPERATORS=====================')
+a,b=20,10
+print('a= ',a,' : ',bin(a),' b= ',b,' : ',bin(b))
+c=0
+c=a&b
+print('result of a AND b is ',c,' : ',bin(c))
+c=a|b
+print('result of a OR b is ',c,' : ',bin(c))
+c=a^b
+print('result of a XOR b is ',c,' : ',bin(c))
+c =~a
+print('result of c COMPLEMENT a is ',c,' : ',bin(c))
+c=a<<2
+print('result of LEFT SHIFT is ',c,' : ',bin(c))
+c=a>>2
+print('result of RIGHT SHIFT is ',c,' : ',bin(c))
+
+#Python Logical Operators
+# and : AND -> a and b, or : OR -> a or b, not : NOT -> not(a)
+
+print('==============LOGICAL OPERATORS======================')
+number=35
+print(number > 20 and number < 45)
+print(number > 35 or number < 40)
+print(not(number > 20))
+
+#Python Membership Operators
+# Tests for membership in a sequence such as strings,lists and tuples
+
+print('==============MEMBERSHIP OPERATORS=====================')
+list=[1,2,3,4,5,6,7,8]
+a=5
+b=3
+print('a : {}, b : {} list : {}'.format(a,b,list))
+
+if(a in list):
+    print('a : {} is in the list'.format(a))
+else:
+    print('a : {} is not in the list'.format(a))
+    
+if(10 not in list):
+    print('10 is not in the list')
+else:
+    print('10 is in the list')
+    
+# Python Identity Operators
+# 2 identity operators : 1. is and 2. is not
+
+print('==============IDENTITY OPERATORS====================')
+a=[1,2,3,4,5]
+b=[1,2,3,4,5]
+c=a
+print(a is c) # True
+print(a is b) # False
+
+print(a is not c) # False
+print(a is not b) # True
