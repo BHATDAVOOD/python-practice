@@ -93,3 +93,9 @@ student={'name':'bhat','age':31,'marks':97.5,'department':'IT'}
 print(student)
 print(student.keys())
 print(student.values())
+
+# Python Set Data type : No Duplicates are allowed
+
+setData={1,1,2.0,'2A',False}
+print(setData)
+print(type(setData))
