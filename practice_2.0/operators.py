@@ -105,3 +105,16 @@ if(10 not in list):
     print('10 is not in the list')
 else:
     print('10 is in the list')
+    
+# Python Identity Operators
+# 2 identity operators : 1. is and 2. is not
+
+print('==============IDENTITY OPERATORS====================')
+a=[1,2,3,4,5]
+b=[1,2,3,4,5]
+c=a
+print(a is c) # True
+print(a is b) # False
+
+print(a is not c) # False
+print(a is not b) # True
