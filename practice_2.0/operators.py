@@ -39,3 +39,20 @@ print('a<b : {}'.format(a<b))
 print('a>b : {}'.format(a>b))
 print('a<=b : {}'.format(a<=b))
 print('a>=b : {}'.format(a>=b))
+
+#Python Assignment operators
+a=10 
+a+=10 # a=a+10 : 20
+print(a)
+a-=5 # a=a-5 : 15
+print(a)
+a*=5 # a=a*5 : 75
+print(a)
+a/=5 # a=a/5 : 15.0
+print(a)
+a%=4 # a=a%5 : 3
+print(int(a))
+a**=4 # a=a**4 : 81
+print(int(a))
+a//=4 # a=a//3 : 20.0
+print(int(a))
