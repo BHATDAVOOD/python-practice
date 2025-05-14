@@ -99,3 +99,13 @@ print(student.values())
 setData={1,1,2.0,'2A',False}
 print(setData)
 print(type(setData))
+
+# Set can store only immutable objects like number, string or tuple
+
+#Python None Data type : Represented by nonetype
+# Represents null type of values or absence of a value
+
+print('==================================================')
+x=None
+print(x)
+print(type(x))
