@@ -41,6 +41,7 @@ print('a<=b : {}'.format(a<=b))
 print('a>=b : {}'.format(a>=b))
 
 #Python Assignment operators
+print('================ASSIGNMENT OPERATORS=====================')
 a=10 
 a+=10 # a=a+10 : 20
 print(a)
@@ -56,3 +57,23 @@ a**=4 # a=a**4 : 81
 print(int(a))
 a//=4 # a=a//3 : 20.0
 print(int(a))
+
+
+#Python BITWISE operators
+# & : AND, | : OR,  ^ : XOR, ~ : COMPLEMENT, << : ZERO FILL LEFT SHIFT, >> : SIGNED RIGHT SHIFT 
+print('================BITWISE OPERATORS=====================')
+a,b=20,10
+print('a= ',a,' : ',bin(a),' b= ',b,' : ',bin(b))
+c=0
+c=a&b
+print('result of a AND b is ',c,' : ',bin(c))
+c=a|b
+print('result of a OR b is ',c,' : ',bin(c))
+c=a^b
+print('result of a XOR b is ',c,' : ',bin(c))
+c =~a
+print('result of c COMPLEMENT a is ',c,' : ',bin(c))
+c=a<<2
+print('result of LEFT SHIFT is ',c,' : ',bin(c))
+c=a>>2
+print('result of RIGHT SHIFT is ',c,' : ',bin(c))
