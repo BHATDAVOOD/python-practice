@@ -77,3 +77,12 @@ c=a<<2
 print('result of LEFT SHIFT is ',c,' : ',bin(c))
 c=a>>2
 print('result of RIGHT SHIFT is ',c,' : ',bin(c))
+
+#Python Logical Operators
+# and : AND -> a and b, or : OR -> a or b, not : NOT -> not(a)
+
+print('==============LOGICAL OPERATORS======================')
+number=35
+print(number > 20 and number < 45)
+print(number > 35 or number < 40)
+print(not(number > 20))
