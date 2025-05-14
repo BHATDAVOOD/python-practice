@@ -109,3 +109,8 @@ print('==================================================')
 x=None
 print(x)
 print(type(x))
+
+
+# Primitive Data Types : Integers,Floats,Booleans and Strings
+# Non-Primitive Data Types : Lists, Tuples, Dictionaries and Sets
+
