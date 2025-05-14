@@ -86,3 +86,22 @@ number=35
 print(number > 20 and number < 45)
 print(number > 35 or number < 40)
 print(not(number > 20))
+
+#Python Membership Operators
+# Tests for membership in a sequence such as strings,lists and tuples
+
+print('==============MEMBERSHIP OPERATORS=====================')
+list=[1,2,3,4,5,6,7,8]
+a=5
+b=3
+print('a : {}, b : {} list : {}'.format(a,b,list))
+
+if(a in list):
+    print('a : {} is in the list'.format(a))
+else:
+    print('a : {} is not in the list'.format(a))
+    
+if(10 not in list):
+    print('10 is not in the list')
+else:
+    print('10 is in the list')
