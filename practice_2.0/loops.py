@@ -19,3 +19,15 @@ total=0
 for num in numbers:
     total+=num
 print(total)
+
+for num in range(5,15,2):
+    print(num,end=' ')
+
+print()
+for num in range(5):
+    print(num,end=' ')
+
+print()
+student={'name':'bhat','age':31,'marks':78.5}
+for detail in student.items():
+    print(detail)
