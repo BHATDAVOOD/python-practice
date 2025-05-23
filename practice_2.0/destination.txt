@@ -1,0 +1,6 @@
+Writing fisrst line from file 
+Writing second line from file 
+Writing third line from file with append operation 
+first line 
+second line 
+third line 
