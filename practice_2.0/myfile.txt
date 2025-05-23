@@ -1,2 +1,3 @@
-Hi, My name is Davood Bhat
-I am from Kashmir
+Writing fisrst line from file 
+Writing second line from file 
+Writing third line from file with append operation 
